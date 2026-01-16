@@ -17,7 +17,7 @@ body {
   position: relative;
 }
 
-.header__logo{
+.header__logo {
   width: 105px;
   height: 39px;
   position: relative;
@@ -70,7 +70,7 @@ body {
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  color: #FF976B;
+  color: #ff976b;
 }
 
 .header__description {
@@ -98,7 +98,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .header__hours-container {
