@@ -1,3 +1,6 @@
+@import url("./normalize.css");
+@import url("./book-a-table.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -113,75 +116,4 @@ body {
 
 .header__info-text--address {
   margin-right: 80px;
-}
-
-/* Reservar una mesa */
-.content,
-.form,
-.form__content {
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  background-image: url("../images/background_reservation.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #ffd6c5;
-  min-height: 720px;
-  max-height: 800px;
-}
-
-.content__container {
-  margin: 0 auto;
-}
-
-.content__title {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  position: relative;
-  top: 100px;
-}
-
-.form {
-  position: relative;
-  top: 180px;
-  max-width: 385px;
-  text-align: left;
-}
-
-.form__label {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.form__input {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  border-radius: 4px;
-}
-
-.form__input::placeholder {
-  color: #838383;
-}
-
-.form__button {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__checkbox {
-  border-radius: 4px;
 }
