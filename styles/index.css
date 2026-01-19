@@ -1,5 +1,6 @@
 @import url("./normalize.css");
 @import url("./book-a-table.css");
+@import url("./footer.css");
 
 * {
   margin: 0;
