@@ -54,32 +54,32 @@
 .footer__list-item:first-child {
   margin-bottom: 16px;
   list-style: none;
+}
 
-  &::before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url("../images/facebook_white.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-  }
+.footer__list-item:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/facebook_white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
 }
 
 .footer__list-item:last-child {
   list-style: none;
+}
 
-  &::before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url("../images/instagram_white.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-  }
+.footer__list-item:last-child::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/instagram_white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
 }
 
 .footer__link {
