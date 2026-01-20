@@ -1,0 +1,19 @@
+.reservation {
+  background-repeat: no-repeat;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-color: #ffd6c5;
+  min-height: 100vh;
+  padding: 100px 80px 120px;
+  text-align: center;
+}
+
+.reservation__title {
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}

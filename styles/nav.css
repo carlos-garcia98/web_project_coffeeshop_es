@@ -1,0 +1,24 @@
+.nav {
+  vertical-align: top;
+  float: right;
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__list-item {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
