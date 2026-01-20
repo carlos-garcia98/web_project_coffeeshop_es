@@ -43,7 +43,7 @@
   right: 30px;
 }
 
-.nav__links-list {
+.nav__links {
   display: flex;
   gap: 20px;
   padding: 0;
