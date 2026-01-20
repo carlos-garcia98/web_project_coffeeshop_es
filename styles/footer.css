@@ -6,14 +6,14 @@
   height: 300px;
 }
 
-.circle {
+.footer__circle {
   background-color: #e96e3a;
   width: 340px;
   height: 340px;
   border-radius: 50%;
   position: absolute;
   top: -128px;
-  left: -4px;
+  left: -44px;
 }
 
 .footer__content,
@@ -36,7 +36,7 @@
   height: 39px;
 }
 
-.footer__links-title,
+.footer__social-headings,
 .footer__link,
 .footer__copyright {
   font-family: "Inter", "Arial", sans-serif;
@@ -46,7 +46,7 @@
   line-height: 20px;
 }
 
-.footer__links-title {
+.footer__social-headings {
   margin-bottom: 20px;
   font-weight: bold;
 }
